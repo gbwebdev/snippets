@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir -p /usr/local/share/file/
-cat <<EOT >> /usr/local/share/file/fake-users-base.csv
+cat <<ENDOFFILE >> /usr/local/share/file/fake-users-base.csv
 ID;prenom;nom;age;sexe;email;Téléphone
 1;Marylène;Truett;63;Male;lacus@hotmail.com;06.73.04.08.22
 2;Séverine;Edworthye;15;Male;proin.vel@gmail.com;+336 78 05 67 01
@@ -1002,5 +1002,6 @@ ID;prenom;nom;age;sexe;email;Téléphone
 998;Marie-thérèse;Cannam;109;Male;vitae@protonmail.edu;02.85.84.22.09
 999;Andréa;Welds;88;Male;sed.nulla@gmail.com;+337 79 56 35 67
 1000;Estève;Beseke;106;Male;sit.amet.consectetuer@gmail.fr;02 03 59 00 08
-EOT
+ENDOFFILE
+
 echo "Terminé :) !"
